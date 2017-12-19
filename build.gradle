@@ -1,0 +1,13 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile group: 'org.apache.ignite', name: 'ignite-core', version: '2.3.0'
+    compile group: 'org.apache.ignite', name: 'ignite-web', version: '2.3.0'
+    compile group: 'org.apache.ignite', name: 'ignite-log4j', version: '2.3.0'
+    compile group: 'org.apache.ignite', name: 'ignite-spring', version: '2.3.0'
+}
