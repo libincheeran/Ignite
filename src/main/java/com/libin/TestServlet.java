@@ -16,5 +16,6 @@ public class TestServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request, response);
+        System.out.println(" this is from post");
     }
 }
