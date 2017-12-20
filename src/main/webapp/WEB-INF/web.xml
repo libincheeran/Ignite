@@ -15,7 +15,7 @@
     <!-- You can also specify a custom URL pattern. -->
     <filter-mapping>
         <filter-name>IgniteWebSessionsFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/IgniteServlet</url-pattern>
     </filter-mapping>
 
     <!-- Specify Ignite configuration (relative to META-INF folder or Ignite_HOME). -->
