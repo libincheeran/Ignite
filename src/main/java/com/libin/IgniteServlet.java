@@ -19,6 +19,7 @@ public class IgniteServlet extends HttpServlet {
         count++;
         session.setAttribute(COUNT,count);
         response.getOutputStream().print("Ignite : Hit Count "+count);
+        System.out.println("");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
